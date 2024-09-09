@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: grid; 
+    justify-content: center; 
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+} 
+.img1{
+    background-image:url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh; 
+    background-attachment:fixed ; 
+}
+
+.card1{
+    display: flex;
+    gap: 20px;
+    background-color: beige;
+    width:50vw;
+    height: 55vh; 
+    opacity:0.9;
+    margin-left: 25%;
+    
+}
+.puppy1{
+    height:40vh ; 
+    width: 25vw; 
+    padding:5%;
+}
+.content{
+    margin-top: 10%;
+}
+.img2{
+    background-image:url("img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-attachment:fixed ; 
+}
+.card2{
+    display: flex;
+    gap: 20px;
+    background-color: beige;
+    width:50vw;
+    height: 55vh; 
+    opacity:0.9;
+    margin-left: 25%;
+    margin-top:10% ;
+}
+
+
+.img3{
+    background-image:url("img4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh; 
+    background-attachment:fixed ;  
+}
+.card3{
+    display: flex;
+    gap: 20px;
+    background-color: beige;
+    width:50vw;
+    height: 55vh; 
+    opacity:0.9;
+    margin-left: 25%;
+    margin-top:10% ;
+}
+
